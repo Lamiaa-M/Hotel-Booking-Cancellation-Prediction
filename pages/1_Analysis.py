@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(page_title="Analysis", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Analysis", page_icon="", layout="wide")
 
 TEAL, SEAFOAM, MINT, DARK, MUTED = "#028090", "#00A896", "#02C39A", "#07343F", "#64748B"
 st.markdown(f"""
@@ -16,7 +16,7 @@ st.markdown(f"""
     .phero h1 {{ font-size: 1.8rem; font-weight: 800; margin: 0; }}
     .phero p {{ opacity:.9; margin:.3rem 0 0 0; }}
 </style>
-<div class="phero"><h1>📊 Cancellation Analysis</h1>
+<div class="phero"><h1>Cancellation Analysis</h1>
 <p>Eight business questions about what drives hotel-booking cancellations.</p></div>
 """, unsafe_allow_html=True)
 
