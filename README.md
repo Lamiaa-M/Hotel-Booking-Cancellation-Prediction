@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking Cancellation Prediction
+# Hotel Booking Cancellation Prediction
 
 Final Data Science Project — an interactive **dashboard + ML model** that predicts whether a hotel booking will be **canceled**, using real Property-Management-System data from two Portuguese hotels.
 
@@ -7,7 +7,7 @@ Final Data Science Project — an interactive **dashboard + ML model** that pred
 
 ---
 
-## 📌 Problem statement
+##  Problem statement
 
 > **Can we predict, at booking time, whether a reservation will be canceled (`is_canceled`)?**
 
@@ -15,7 +15,7 @@ A binary classification problem evaluated with **precision and recall**.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Kaggle — mojtaba142/hotel-booking](https://www.kaggle.com/datasets/mojtaba142/hotel-booking) (~119,390 rows × 36 columns)
 - **Dirty by design:** missing values, `"Undefined"` categories, `adr` outliers, zero-guest rows, duplicates, and target-leakage columns — all handled in the notebook.
@@ -24,15 +24,15 @@ Download `hotel_booking.csv` and place it in the project root.
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 .
 ├── Hotel_Cancellation_Prediction.ipynb   # full analysis notebook
 ├── Home.py                               # dashboard landing (app entry point)
 ├── pages/
-│   ├── 1_Analysis.py                     # 📊 Analysis page — Q1–Q8 EDA charts
-│   └── 2_ML_Model.py                     # 🔮 ML Model page — live predictor
+│   ├── 1_Analysis.py                     #  Analysis page — Q1–Q8 EDA charts
+│   └── 2_ML_Model.py                     #  ML Model page — live predictor
 ├── .streamlit/
 │   └── config.toml                       # teal theme
 ├── requirements.txt
@@ -46,7 +46,7 @@ Download `hotel_booking.csv` and place it in the project root.
 
 ---
 
-## ▶️ How to run
+##  How to run
 
 ```bash
 pip install -r requirements.txt        # 1. install deps
@@ -55,21 +55,21 @@ streamlit run Home.py                  # 3. launch the dashboard
 ```
 
 The dashboard has **two pages** in the sidebar:
-- **📊 Analysis** — eight business questions (Q1–Q8) answered with interactive charts.
-- **🔮 ML Model** — enter a booking's details and get its cancellation probability on a live gauge.
+- ** Analysis** — eight business questions (Q1–Q8) answered with interactive charts.
+- ** ML Model** — enter a booking's details and get its cancellation probability on a live gauge.
 
 ### Deploy online (free)
 Push to GitHub → [share.streamlit.io](https://share.streamlit.io) → connect the repo → set **`Home.py`** as the entry point → paste the public link into your submission.
 
 ---
 
-## 🔬 Notebook contents
+##  Notebook contents
 
 Data cleaning (documented) → feature engineering → EDA (8 business questions, Plotly) → 3 model **pipelines** compared with cross-validation → **class-imbalance handling (SMOTE / SMOTE-Tomek)** → GridSearchCV tuning → validation (train-vs-test cross-validation) → evaluation (precision, recall, F1, ROC-AUC) → embedded feature selection → saved artifacts.
 
 ---
 
-## ✅ Submission checklist
+##  Submission checklist
 
 - [ ] Notebook with all work
 - [ ] `Home.py` + `pages/` 2-page dashboard with deployed URL
