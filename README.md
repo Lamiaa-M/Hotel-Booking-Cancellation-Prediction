@@ -59,7 +59,7 @@ The dashboard has **two pages** in the sidebar:
 - ** ML Model** — enter a booking's details and get its cancellation probability on a live gauge.
 
 ### Deploy online (free)
-Push to GitHub → [share.streamlit.io](https://share.streamlit.io) → connect the repo → set **`Home.py`** as the entry point → paste the public link into your submission.
+Push to GitHub → [share.streamlit.io]([https://share.streamlit.io](https://hotel-booking-cancellation-prediction-6exr9x2wtdeh4jxz6oyuat.streamlit.app/)) → connect the repo → set **`Home.py`** as the entry point → paste the public link into your submission.
 
 ---
 
@@ -67,15 +67,4 @@ Push to GitHub → [share.streamlit.io](https://share.streamlit.io) → connect 
 
 Data cleaning (documented) → feature engineering → EDA (8 business questions, Plotly) → 3 model **pipelines** compared with cross-validation → **class-imbalance handling (SMOTE / SMOTE-Tomek)** → GridSearchCV tuning → validation (train-vs-test cross-validation) → evaluation (precision, recall, F1, ROC-AUC) → embedded feature selection → saved artifacts.
 
----
 
-##  Submission checklist
-
-- [ ] Notebook with all work
-- [ ] `Home.py` + `pages/` 2-page dashboard with deployed URL
-- [ ] Dataset + saved transformer + saved model
-- [ ] PPTX presentation
-- [ ] Explanatory video
-- [ ] Repo created + main Epsilon AI repo mentioned
-
-> *"Keep it Simple, BUT significant."*
