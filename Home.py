@@ -61,15 +61,12 @@ c1.markdown(f"""
   <h2> Analysis page</h2>
   <p>Eight business questions about what drives cancellations, each answered with an interactive chart:
   lead time, deposit type, market segment, special requests, seasonality and more.</p>
-  <p><strong>Open it from the sidebar →</strong></p>
 </div>""", unsafe_allow_html=True)
 c2.markdown(f"""
 <div class="card">
   <h2> ML Model page</h2>
   <p>Enter a booking's details and the tuned Random Forest estimates its cancellation probability,
   shown on a live gauge with a clear honored/canceled verdict.</p>
-  <p><strong>Open it from the sidebar →</strong></p>
 </div>""", unsafe_allow_html=True)
 
 st.write("")
-st.caption("Built for the Epsilon AI Data Science final project · references the main Epsilon AI repository.")
