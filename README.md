@@ -2,9 +2,6 @@
 
 Final Data Science Project — an interactive **dashboard + ML model** that predicts whether a hotel booking will be **canceled**, using real Property-Management-System data from two Portuguese hotels.
 
-> *Completed as part of the [Epsilon AI](https://github.com/Epsilon-AI) Data Science program.*
-> *Main Epsilon AI repo: https://github.com/Epsilon-AI*
-
 ---
 
 ##  Problem statement
