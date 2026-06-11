@@ -1,11 +1,11 @@
 """
 Home.py — landing page. Run the dashboard with:  streamlit run Home.py
-Two pages live in the sidebar:  📊 Analysis  and  🔮 ML Model.
+Two pages live in the sidebar:   Analysis  and   ML Model.
 """
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Hotel Cancellation Dashboard", page_icon="🏨", layout="wide")
+st.set_page_config(page_title="Hotel Cancellation Dashboard", page_icon="", layout="wide")
 
 TEAL, SEAFOAM, MINT, DARK, INK, MUTED = "#028090", "#00A896", "#02C39A", "#07343F", "#1E293B", "#64748B"
 st.markdown(f"""
@@ -29,7 +29,7 @@ st.markdown(f"""
 </style>
 <div class="hero">
   <div class="tag">FINAL DATA SCIENCE PROJECT</div>
-  <h1>🏨 Hotel Booking Cancellation Dashboard</h1>
+  <h1>Hotel Booking Cancellation Dashboard</h1>
   <p>Predicting whether a hotel reservation will be canceled — with an interactive analysis page and a live prediction model.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -58,14 +58,14 @@ st.write("")
 c1, c2 = st.columns(2)
 c1.markdown(f"""
 <div class="card">
-  <h2>📊 Analysis page</h2>
+  <h2> Analysis page</h2>
   <p>Eight business questions about what drives cancellations, each answered with an interactive chart:
   lead time, deposit type, market segment, special requests, seasonality and more.</p>
   <p><strong>Open it from the sidebar →</strong></p>
 </div>""", unsafe_allow_html=True)
 c2.markdown(f"""
 <div class="card">
-  <h2>🔮 ML Model page</h2>
+  <h2> ML Model page</h2>
   <p>Enter a booking's details and the tuned Random Forest estimates its cancellation probability,
   shown on a live gauge with a clear honored/canceled verdict.</p>
   <p><strong>Open it from the sidebar →</strong></p>
