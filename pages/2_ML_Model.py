@@ -5,7 +5,7 @@ import joblib
 import plotly.graph_objects as go
 from category_encoders import BinaryEncoder  # needed to unpickle the preprocessor
 
-st.set_page_config(page_title="ML Model", page_icon="🔮", layout="wide")
+st.set_page_config(page_title="ML Model", page_icon="", layout="wide")
 
 TEAL, MINT, DARK = "#028090", "#02C39A", "#07343F"
 st.markdown(f"""
@@ -17,7 +17,7 @@ st.markdown(f"""
     .phero h1 {{ font-size: 1.8rem; font-weight: 800; margin: 0; }}
     .phero p {{ opacity:.9; margin:.3rem 0 0 0; }}
 </style>
-<div class="phero"><h1>🔮 Cancellation Prediction Model</h1>
+<div class="phero"><h1> Cancellation Prediction Model</h1>
 <p>Enter the booking details; the tuned Random Forest estimates the cancellation probability.</p></div>
 """, unsafe_allow_html=True)
 
